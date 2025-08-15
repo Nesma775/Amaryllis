@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(images/stand3.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center:
+}
+nav img{
+	width:160px;
+}
+.nav-links{
+	flex: 1;
+	text-align: left;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 70px 10px;
+	position: relative;
+}
+.nav-links ul li a{
+	text-decoration: none;
+	font-size: 22px;
+
+}
+.nav-links ul li:after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f6358a;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.text-box{
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+		color:#232d60;
+	margin-left: 6%;
+}
+.text-box h1{ 
+	font-size: 60px;
+}
+.text-box .btn{
+    display:inline-block;
+	background: linear-gradient(45deg, #87adfe, #ff77cd);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+	transition: transform 0.5s;
+	font-size: 30px;
+}
+.text-box .btn:hover{
+	transform: translateY(-10px);
+}
+.text-box .hero-btn:hover{
+	transform: translateY(-10px);
+}
+
+.text-box a{ 
+	display:inline-block;
+	background: linear-gradient(45deg, #87adfe, #ff77cd);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+	
+	font-size: 30px;
+	
+}
+
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	border: 1px  ;
+	padding:  12px 34px;
+	font-size: 25px;
+	background: transparent;
+	position:relative;
+	cursor: pointer;
+	transition: transform 0.5s;
+	
+}
+.vi-btn{
+	transition: transform 0.5s;
+}
+.vi-btn:hover{
+	transform: translateY(-10px);
+}
+
+}
+@media(max-width: 991px){
+	.header{
+		background-image:url(images/wallpaper.jpg);
+	}
+	.text-box h1{
+		font-size: 40px;
+	}
+	.text-box{ 
+		font-size: 20px;
+		
+	}
+	.nav-links ul li a{
+		font-size: 20px;
+	}
+	nav img{
+		width:140px;
+	}
+		
+    
+}
+
+
+/*----------- about our project --------*/
+
+.sub-header{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/stand3.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align-last: left;
+	
+
+	
+}
+	
+
+.text-box1{
+	font-size: 40px;
+	margin-left: 6%;
+	flex: 1;
+	text-align: left;
+	color:#232d60;
+   margin-top: -10px;
+
+}
+
+.text-box1 h3{
+	font-size:40px;
+}
+
+.text-box1 p{
+	font-size:25px;
+	padding: 10px;
+	height: 20vh;
+	margin-right: 45%;
+	color: #153e7e;
+	
+	
+}
+.text-box1 h2{
+font-family: 'Lato', sans-serif;
+}
+
+@media(max-width: 700px){
+	.sub-header{
+		background-image:url(images/wallpaper.jpg);
+	}
+	.text-box1{
+		font-size: 25px;
+		
+	}
+	.text-box1 h3{
+		font-size: 25px;
+		
+	}
+	.text-box1 p{
+		font-size: 20px;
+		margin-right: 0%;
+	}
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
